@@ -1,0 +1,22 @@
+2026.01.29 11:57:37 INFO  Started: Metals version 1.6.5 in folders '/Users/tellius/Desktop/scala-assignment' for client Visual Studio Code 1.107.1.
+2026.01.29 11:57:37 INFO  Memory monitor started
+2026.01.29 11:57:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+Jan 29, 2026 11:58:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 29, 2026 11:58:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 29, 2026 11:58:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.29 11:58:43 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:58:43 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:58:43 WARN  no build target for: /Users/tellius/Desktop/scala-assignment/build.sbt
+2026.01.29 11:58:43 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+Jan 29, 2026 11:58:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2026.01.29 11:58:45 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+Jan 29, 2026 11:58:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.01.29 11:58:45 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:58:48 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+Jan 29, 2026 11:58:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
