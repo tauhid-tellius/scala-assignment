@@ -45,3 +45,7 @@ build/
 
 ### Scala ###
 .bsp/
+
+/target
+**/.bsp/
+**/.scala-build/
