@@ -10293,3 +10293,608 @@ INFO: Unsupported notification method: $/setTrace
 2026.01.30 12:23:05 INFO  compiling root (1 scala source)
 2026.01.30 12:23:05 WARN  there was 1 deprecation warning; re-run with -deprecation for details
 2026.01.30 12:23:05 INFO  time: compiled root in 0.15s
+2026.01.30 12:25:32 INFO  compiling root (1 scala source)
+2026.01.30 12:25:32 INFO  time: compiled root in 70ms
+Jan 30, 2026 12:25:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 2,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.01.30 12:25:36 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala
+Jan 30, 2026 12:25:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 3,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\n\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..2]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.01.30 12:25:37 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala
+Jan 30, 2026 12:25:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 4,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\nc\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..3]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 30, 2026 12:25:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 5,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\ncl\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..4]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 30, 2026 12:25:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 6,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\ncla\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..5]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.01.30 12:25:38 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala
+Jan 30, 2026 12:25:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 7,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\nclas\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..6]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 30, 2026 12:25:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 8,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\nclass\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..7]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.01.30 12:25:38 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala
+2026.01.30 12:25:40 INFO  compiling root (1 scala source)
+2026.01.30 12:25:40 INFO  time: compiled root in 66ms
+2026.01.30 12:25:49 INFO  compiling root (1 scala source)
+2026.01.30 12:25:49 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:25:49 INFO  time: compiled root in 99ms
+2026.01.30 12:25:54 INFO  compiling root (1 scala source)
+2026.01.30 12:25:54 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:25:54 INFO  time: compiled root in 95ms
+2026.01.30 12:25:56 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala
+2026.01.30 12:25:57 INFO  compiling root (1 scala source)
+2026.01.30 12:25:57 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:25:57 INFO  time: compiled root in 0.1s
+2026.01.30 12:26:07 INFO  compiling root (1 scala source)
+2026.01.30 12:26:07 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:26:07 INFO  time: compiled root in 88ms
+2026.01.30 12:26:26 INFO  compiling root (1 scala source)
+2026.01.30 12:26:26 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:26:26 INFO  time: compiled root in 92ms
+2026.01.30 12:36:22 INFO  compiling root (1 scala source)
+2026.01.30 12:36:22 INFO  time: compiled root in 38ms
+2026.01.30 12:36:27 INFO  compiling root (1 scala source)
+2026.01.30 12:36:27 INFO  time: compiled root in 40ms
+2026.01.30 12:36:30 INFO  compiling root (1 scala source)
+2026.01.30 12:36:30 INFO  time: compiled root in 64ms
+2026.01.30 12:36:33 INFO  compiling root (1 scala source)
+2026.01.30 12:36:33 INFO  time: compiled root in 27ms
+2026.01.30 12:36:36 INFO  compiling root (1 scala source)
+2026.01.30 12:36:36 INFO  time: compiled root in 29ms
+2026.01.30 12:36:38 INFO  compiling root (1 scala source)
+2026.01.30 12:36:38 INFO  time: compiled root in 25ms
+2026.01.30 12:36:51 INFO  compiling root (1 scala source)
+2026.01.30 12:36:51 INFO  time: compiled root in 0.2s
+2026.01.30 12:36:54 INFO  compiling root (1 scala source)
+2026.01.30 12:36:54 INFO  time: compiled root in 0.19s
+2026.01.30 12:36:57 INFO  compiling root (1 scala source)
+2026.01.30 12:36:57 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:36:57 INFO  time: compiled root in 0.11s
+2026.01.30 12:37:03 INFO  compiling root (1 scala source)
+2026.01.30 12:37:03 INFO  time: compiled root in 0.18s
+2026.01.30 12:37:16 INFO  compiling root (1 scala source)
+2026.01.30 12:37:16 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:37:16 INFO  time: compiled root in 0.12s
+2026.01.30 12:37:17 INFO  compiling root (1 scala source)
+2026.01.30 12:37:17 INFO  time: compiled root in 40ms
+2026.01.30 12:37:21 INFO  compiling root (1 scala source)
+2026.01.30 12:37:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:37:21 INFO  time: compiled root in 92ms
+2026.01.30 12:37:23 INFO  compiling root (1 scala source)
+2026.01.30 12:37:23 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:37:23 INFO  time: compiled root in 91ms
+2026.01.30 12:37:27 INFO  compiling root (1 scala source)
+2026.01.30 12:37:27 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:37:27 INFO  time: compiled root in 96ms
+2026.01.30 12:37:29 INFO  compiling root (1 scala source)
+2026.01.30 12:37:29 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:37:29 INFO  time: compiled root in 81ms
+2026.01.30 12:37:35 INFO  compiling root (1 scala source)
+2026.01.30 12:37:35 INFO  time: compiled root in 45ms
+2026.01.30 12:37:39 INFO  compiling root (1 scala source)
+2026.01.30 12:37:39 INFO  time: compiled root in 30ms
+2026.01.30 12:37:44 INFO  compiling root (1 scala source)
+2026.01.30 12:37:44 INFO  time: compiled root in 36ms
+2026.01.30 12:37:57 INFO  compiling root (1 scala source)
+2026.01.30 12:37:57 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:37:57 INFO  time: compiled root in 0.11s
+2026.01.30 12:38:01 INFO  compiling root (1 scala source)
+2026.01.30 12:38:01 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:38:01 INFO  time: compiled root in 98ms
+2026.01.30 12:38:03 INFO  compiling root (1 scala source)
+2026.01.30 12:38:03 INFO  time: compiled root in 92ms
+2026.01.30 12:38:05 INFO  compiling root (1 scala source)
+2026.01.30 12:38:05 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:38:05 INFO  time: compiled root in 98ms
+2026.01.30 12:38:08 INFO  compiling root (1 scala source)
+2026.01.30 12:38:08 INFO  time: compiled root in 52ms
+2026.01.30 12:38:09 INFO  compiling root (1 scala source)
+2026.01.30 12:38:09 INFO  time: compiled root in 60ms
+2026.01.30 12:38:12 INFO  compiling root (1 scala source)
+2026.01.30 12:38:12 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:38:12 INFO  time: compiled root in 0.11s
+2026.01.30 12:38:43 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala
+2026.01.30 12:38:43 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/implicit.scala
+2026.01.30 12:38:45 INFO  compiling root (1 scala source)
+2026.01.30 12:38:45 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:38:45 INFO  time: compiled root in 0.11s
+2026.01.30 12:38:46 INFO  compiling root (1 scala source)
+2026.01.30 12:38:46 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:38:46 INFO  time: compiled root in 0.1s
+2026.01.30 12:38:48 INFO  compiling root (1 scala source)
+2026.01.30 12:38:48 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:38:48 INFO  time: compiled root in 0.11s
+Jan 30, 2026 12:38:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.30 12:38:57 INFO  compiling root (1 scala source)
+2026.01.30 12:38:57 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:38:57 INFO  time: compiled root in 0.11s
+2026.01.30 12:39:01 INFO  compiling root (1 scala source)
+2026.01.30 12:39:01 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:39:01 INFO  time: compiled root in 0.11s
+2026.01.30 12:39:43 INFO  compiling root (1 scala source)
+2026.01.30 12:39:43 INFO  time: compiled root in 76ms
+2026.01.30 12:39:45 INFO  compiling root (1 scala source)
+2026.01.30 12:39:45 INFO  time: compiled root in 53ms
+2026.01.30 12:39:48 INFO  compiling root (1 scala source)
+2026.01.30 12:39:48 INFO  time: compiled root in 59ms
+2026.01.30 12:39:50 INFO  compiling root (1 scala source)
+2026.01.30 12:39:50 INFO  time: compiled root in 51ms
+2026.01.30 12:39:52 INFO  compiling root (1 scala source)
+2026.01.30 12:39:52 INFO  time: compiled root in 50ms
+2026.01.30 12:39:53 INFO  compiling root (1 scala source)
+2026.01.30 12:39:53 INFO  time: compiled root in 57ms
+2026.01.30 12:39:55 INFO  compiling root (1 scala source)
+2026.01.30 12:39:55 INFO  time: compiled root in 57ms
+2026.01.30 12:40:08 INFO  compiling root (1 scala source)
+2026.01.30 12:40:08 INFO  time: compiled root in 62ms
+2026.01.30 12:40:09 INFO  compiling root (1 scala source)
+2026.01.30 12:40:09 INFO  time: compiled root in 55ms
+2026.01.30 12:40:32 INFO  compiling root (1 scala source)
+2026.01.30 12:40:32 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 12:40:32 INFO  time: compiled root in 0.11s
+2026.01.30 13:05:23 INFO  compiling root (1 scala source)
+2026.01.30 13:05:23 INFO  time: compiled root in 80ms
+2026.01.30 13:05:25 INFO  compiling root (1 scala source)
+2026.01.30 13:05:25 INFO  time: compiled root in 22ms
+Jan 30, 2026 1:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 3,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.01.30 13:05:31 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:05:31 INFO  compiling root (1 scala source)
+2026.01.30 13:05:31 INFO  time: compiled root in 31ms
+2026.01.30 13:05:31 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:05:32 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:05:32 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:05:33 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:05:34 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:05:34 INFO  Created report: Optional[file:///Users/tellius/Desktop/scala-assignment/file:/Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala]
+2026.01.30 13:05:34 INFO  expected identifier; obtained eof (full report at: "/Users/tellius/Desktop/scala-assignment/.metals/.reports/metals/2026-01-30/r_scala-toplevel-mtags_13-05-34-947.md")
+2026.01.30 13:05:34 INFO  compiling root (1 scala source)
+2026.01.30 13:05:34 INFO  time: compiled root in 21ms
+2026.01.30 13:05:34 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:05:40 INFO  compiling root (1 scala source)
+2026.01.30 13:05:40 INFO  time: compiled root in 65ms
+2026.01.30 13:05:45 INFO  compiling root (1 scala source)
+2026.01.30 13:05:45 INFO  time: compiled root in 30ms
+2026.01.30 13:05:50 INFO  compiling root (1 scala source)
+2026.01.30 13:05:50 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 13:05:50 INFO  time: compiled root in 0.11s
+2026.01.30 13:06:06 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/advance-scala/jsonSerialise.scala
+2026.01.30 13:06:07 INFO  compiling root (1 scala source)
+2026.01.30 13:06:07 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 13:06:07 INFO  time: compiled root in 97ms
+2026.01.30 13:06:09 INFO  compiling root (1 scala source)
+2026.01.30 13:06:09 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 13:06:09 INFO  time: compiled root in 98ms
+2026.01.30 13:06:12 INFO  compiling root (1 scala source)
+2026.01.30 13:06:12 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 13:06:12 INFO  time: compiled root in 93ms
+2026.01.30 13:06:21 INFO  compiling root (1 scala source)
+2026.01.30 13:06:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 13:06:21 INFO  time: compiled root in 0.1s
+Jan 30, 2026 1:06:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
