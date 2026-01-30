@@ -13,5 +13,6 @@ val scalaTestVersion = "3.2.19"
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
-  "org.scalatest" %% "scalatest" % scalaTestVersion % Test
+  "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
+  "ch.qos.logback" % "logback-classic" % "1.2.3"
 )

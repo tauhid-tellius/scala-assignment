@@ -19,6 +19,7 @@
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.8.8/akka-actor_3-2.8.8.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_3/2.8.8/akka-testkit_3-2.8.8.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_3/3.2.19/scalatest_3-3.2.19.jar",
+            "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.1/scala-library-3.8.1.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0.jar",
@@ -35,6 +36,8 @@
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_3/3.2.19/scalatest-matchers-core_3-3.2.19.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_3/3.2.19/scalatest-shouldmatchers_3-3.2.19.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_3/3.2.19/scalatest-mustmatchers_3-3.2.19.jar",
+            "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.19/scalactic_3-3.2.19.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.19/scalatest-compatible-3.2.19.jar",
             "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_3/2.1.0/scala-xml_3-2.1.0.jar"
@@ -204,6 +207,23 @@
                     ]
                 },
                 {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
                     "version": "3.8.1",
@@ -251,6 +271,40 @@
                             "name": "scala-java8-compat_3",
                             "classifier": "sources",
                             "path": "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/tellius/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"
                         }
                     ]
                 },
