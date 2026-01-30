@@ -11849,3 +11849,9 @@ WARNING: Unmatched cancel notification for request id 35720
 2026.01.30 16:46:13 INFO  compiling root (1 scala source)
 2026.01.30 16:46:13 WARN  there was 1 deprecation warning; re-run with -deprecation for details
 2026.01.30 16:46:13 INFO  time: compiled root in 0.17s
+2026.01.30 17:00:14 INFO  compiling root (1 scala source)
+2026.01.30 17:00:14 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 17:00:14 INFO  time: compiled root in 0.2s
+2026.01.30 17:00:15 INFO  compiling root (1 scala source)
+2026.01.30 17:00:15 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 17:00:15 INFO  time: compiled root in 0.16s

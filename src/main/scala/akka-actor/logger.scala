@@ -3,7 +3,6 @@
         Log warn messages to one file
         Log info messages to one file
         Renaming a file to work as a rolling file appender
-    Do not open and close the file for every message as its non-efficient
   */
 import akka.actor._
 
