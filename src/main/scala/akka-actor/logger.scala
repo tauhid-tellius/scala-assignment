@@ -13,8 +13,8 @@ object Logger extends App {
 
     object ActorWithLogging {
         sealed trait LogMessage
-        case class Info(msg: String) extends LogMessage
-        case class Warn(msg: String) extends LogMessage
+        case class Info(msg: String)  extends LogMessage
+        case class Warn(msg: String)  extends LogMessage
         case class Error(msg: String) extends LogMessage
         case class Debug(msg: String) extends LogMessage
     }
@@ -22,11 +22,11 @@ object Logger extends App {
     class ActorWithLogging extends Actor with ActorLogging {
         import ActorWithLogging._
         override def receive: Receive = 
-            case Info(str) => log.info(str.toString())
-            case Warn(str) => log.warning(str.toString())
+            case Info(str)  => log.info(str.toString())
+            case Warn(str)  => log.warning(str.toString())
             case Error(str) => log.error(str.toString())
             case Debug(str) => log.debug(str.toString())
-            case _ => log.warning("Unknown Message")
+            case _          => log.warning("Unknown Message")
 
     }
 
