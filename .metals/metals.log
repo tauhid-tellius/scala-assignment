@@ -11855,3 +11855,144 @@ WARNING: Unmatched cancel notification for request id 35720
 2026.01.30 17:00:15 INFO  compiling root (1 scala source)
 2026.01.30 17:00:15 WARN  there was 1 deprecation warning; re-run with -deprecation for details
 2026.01.30 17:00:15 INFO  time: compiled root in 0.16s
+Jan 30, 2026 5:09:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.30 17:47:31 INFO  compiling root (1 scala source)
+2026.01.30 17:47:31 INFO  time: compiled root in 0.13s
+2026.01.30 17:47:35 INFO  compiling root (1 scala source)
+2026.01.30 17:47:35 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 17:47:35 INFO  time: compiled root in 0.2s
+2026.01.30 17:47:44 INFO  compiling root (1 scala source)
+2026.01.30 17:47:44 INFO  time: compiled root in 97ms
+2026.01.30 17:47:45 INFO  compiling root (1 scala source)
+2026.01.30 17:47:45 INFO  time: compiled root in 0.15s
+2026.01.30 17:47:47 INFO  compiling root (1 scala source)
+2026.01.30 17:47:47 INFO  time: compiled root in 90ms
+2026.01.30 17:47:49 INFO  compiling root (1 scala source)
+2026.01.30 17:47:49 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.01.30 17:47:49 INFO  time: compiled root in 0.16s
+Feb 02, 2026 10:53:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36061
+Feb 02, 2026 10:53:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36062
+Feb 02, 2026 10:59:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.02 11:07:35 INFO  Shutting down server
+2026.02.02 11:07:35 INFO  Memory monitor stopped
+2026.02.02 11:07:35 INFO  shutting down Metals
+2026.02.02 11:07:35 INFO  Shut down connection with build server.
+2026.02.02 11:07:35 INFO  Shut down connection with build server.
+2026.02.02 11:07:35 INFO  Exiting server
+2026.02.03 16:28:10 INFO  Started: Metals version 1.6.5 in folders '/Users/tellius/Desktop/scala-assignment' for client Visual Studio Code 1.107.1.
+2026.02.03 16:28:10 INFO  Memory monitor started
+2026.02.03 16:28:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 16:28:10 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/logger.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 16:28:11 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/logger.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 16:28:11 INFO  Attempting to connect to the build server...
+2026.02.03 16:28:11 INFO  Found a Bloop server running
+2026.02.03 16:28:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 16:28:16 INFO  Attempting to connect to the build server...
+2026.02.03 16:28:16 INFO  Found a Bloop server running
+2026.02.03 16:28:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 16:28:16 INFO  time: Connected to build server in 5.28s
+2026.02.03 16:28:16 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.03 16:28:18 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 16:28:18 INFO  time: indexed workspace in 2.06s
+2026.02.03 16:28:31 INFO  compiling root (1 scala source)
+2026.02.03 16:28:31 INFO  time: compiled root in 0.12s
+2026.02.03 16:28:38 INFO  compiling root (1 scala source)
+2026.02.03 16:28:38 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.03 16:28:38 INFO  time: compiled root in 0.11s
+2026.02.03 16:28:43 INFO  compiling root (1 scala source)
+2026.02.03 16:28:43 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.03 16:28:43 INFO  time: compiled root in 0.1s
+2026.02.03 16:28:59 INFO  compiling root (1 scala source)
+2026.02.03 16:28:59 INFO  time: compiled root in 0.3s
+2026.02.03 16:29:19 INFO  compiling root (1 scala source)
+2026.02.03 16:29:19 INFO  time: compiled root in 0.35s
+2026.02.03 16:29:40 INFO  compiling root (1 scala source)
+2026.02.03 16:29:40 INFO  time: compiled root in 77ms
+2026.02.03 16:29:43 INFO  compiling root (1 scala source)
+2026.02.03 16:29:43 INFO  time: compiled root in 59ms
+2026.02.03 16:30:09 INFO  compiling root (1 scala source)
+2026.02.03 16:30:09 INFO  time: compiled root in 85ms
+2026.02.03 16:30:33 INFO  compiling root (1 scala source)
+2026.02.03 16:30:33 INFO  time: compiled root in 84ms
+2026.02.03 16:30:36 INFO  compiling root (1 scala source)
+2026.02.03 16:30:36 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.03 16:30:36 INFO  time: compiled root in 0.2s
+Feb 03, 2026 4:30:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 03, 2026 4:30:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 03, 2026 4:30:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 03, 2026 4:30:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 27,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/bankActor.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\nimport akka.actor.{Actor, ActorRef, ActorSystem, Props}\n\nobject bankActor extends App{\n\n    val system \u003d ActorSystem(\"SimpleActor\")\n\n    object BankAccount {\n    case class Deposit(amount : Int)\n    case class Withdraw(amount : Int)\n    case object Statement\n\n    case class TransactionSuccess(message : String)\n    case class TransactionFailure(message : String)\n    }\n\n    class BankAccount extends Actor {\n    var amounts \u003d 0;\n\n    import BankAccount._\n\n    override def receive: Receive \u003d {\n        case Deposit(amount) \u003d\u003e\n        if (amount \u003c 0) sender() ! TransactionFailure(\"Invalid amount\")\n        else {\n            amounts +\u003d amount\n            sender() ! TransactionSuccess(s\"Account deposited by amount $amount\")\n        }\n\n        case Withdraw(amount) \u003d\u003e\n        if (amount \u003c 0) sender() ! TransactionFailure(\"Invalid amount\")\n        else if (amount \u003e amounts) sender() ! TransactionFailure(\"insufficient amount\")\n        else {\n            amounts -\u003d amount\n            sender() ! TransactionSuccess(s\"Account withdrew amount $amount\")\n        }\n\n        case Statement \u003d\u003e sender() ! s\"Your current amount is $amounts\"\n    }\n\n    }\n\n    object Person {\n    case class LiveTheLife(account: ActorRef)\n    }\n\n    class Person extends Actor {\n    import Person._\n    import BankAccount._\n\n    override def receive: Receive \u003d {\n        case LiveTheLife(account) \u003d\u003e\n        account ! Deposit(10000)\n        account ! Withdraw(90000)\n        account ! Withdraw(500)\n        account ! Statement\n\n        case message \u003d\u003e println(message)\n    }\n    }\n\n    val bankAccount \u003d system.actorOf(Props[BankAccount](), \"bank\")\n    val person \u003d system.actorOf(Props[Person](), \"Alice\")\n\n    person ! Person.LiveTheLife(bankAccount)\n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1733]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.02.03 16:30:48 INFO  compiling root (1 scala source)
+2026.02.03 16:30:48 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.03 16:30:48 INFO  time: compiled root in 0.18s
+2026.02.03 16:31:17 INFO  compiling root (1 scala source)
+2026.02.03 16:31:17 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.03 16:31:17 INFO  time: compiled root in 0.17s
+Feb 03, 2026 4:31:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 314
+Feb 03, 2026 4:31:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+Feb 03, 2026 4:31:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 03, 2026 4:31:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
