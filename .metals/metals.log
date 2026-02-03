@@ -11996,3 +11996,26 @@ Feb 03, 2026 4:31:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Feb 03, 2026 4:31:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.02.03 16:34:00 INFO  Shutting down server
+2026.02.03 16:34:00 INFO  Memory monitor stopped
+2026.02.03 16:34:00 INFO  shutting down Metals
+2026.02.03 16:34:00 INFO  Shut down connection with build server.
+2026.02.03 16:34:00 INFO  Shut down connection with build server.
+2026.02.03 16:34:00 INFO  Exiting server
+2026.02.03 16:34:10 INFO  Started: Metals version 1.6.5 in folders '/Users/tellius/Desktop/scala-assignment' for client Visual Studio Code 1.107.1.
+2026.02.03 16:34:10 INFO  Memory monitor started
+2026.02.03 16:34:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 16:34:10 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/bankActor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 16:34:11 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/bankActor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 16:34:11 INFO  Attempting to connect to the build server...
+2026.02.03 16:34:11 INFO  Found a Bloop server running
+2026.02.03 16:34:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 16:34:17 INFO  Attempting to connect to the build server...
+2026.02.03 16:34:17 INFO  Found a Bloop server running
+2026.02.03 16:34:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 16:34:17 INFO  time: Connected to build server in 5.28s
+2026.02.03 16:34:17 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.03 16:34:18 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 16:34:18 INFO  time: indexed workspace in 2.07s
+Feb 03, 2026 4:41:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
