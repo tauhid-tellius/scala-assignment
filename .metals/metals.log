@@ -13705,3 +13705,8 @@ WARNING: Unmatched cancel notification for request id 5749
 2026.02.06 18:39:36 INFO  compiling root (1 scala source)
 2026.02.06 18:39:36 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
 2026.02.06 18:39:36 INFO  time: compiled root in 0.3s
+2026.02.06 18:51:01 INFO  compiling root (1 scala source)
+2026.02.06 18:51:01 INFO  time: compiled root in 0.23s
+2026.02.06 18:51:02 INFO  compiling root (1 scala source)
+2026.02.06 18:51:02 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
+2026.02.06 18:51:02 INFO  time: compiled root in 0.41s

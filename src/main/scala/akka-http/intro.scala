@@ -22,8 +22,8 @@ object intro extends App with UserJsonProtocol {
     var Users = List(
         User(1, "Thomas", "thomas.th@gmail.com"),
         User(2, "Alice", "alice@gmail.com"),
-        User(2, "Bob", "bob@gmail.com"),
-        User(2, "Tim", "tim@gmail.com"),
+        User(3, "Bob", "bob@gmail.com"),
+        User(4, "Tim", "tim@gmail.com"),
     )
 
     /**
