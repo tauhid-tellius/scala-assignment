@@ -213,7 +213,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Users/tellius/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home",
+                "home": "/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/tellius/Desktop/scala-assignment/project"
                 ]
@@ -222,7 +222,7 @@
                 
             ],
             "runtimeConfig": {
-                "home": "/Users/tellius/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home",
+                "home": "/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/tellius/Desktop/scala-assignment/project"
                 ]

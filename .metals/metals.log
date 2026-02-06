@@ -12019,3 +12019,870 @@ INFO: Unsupported notification method: $/setTrace
 2026.02.03 16:34:18 INFO  time: indexed workspace in 2.07s
 Feb 03, 2026 4:41:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.02.04 10:53:50 INFO  Shutting down server
+2026.02.04 10:53:50 INFO  Memory monitor stopped
+2026.02.04 10:53:50 INFO  shutting down Metals
+2026.02.04 10:53:50 INFO  Shut down connection with build server.
+2026.02.04 10:53:50 INFO  Shut down connection with build server.
+2026.02.04 10:53:50 INFO  Exiting server
+2026.02.06 12:39:36 INFO  Started: Metals version 1.6.5 in folders '/Users/tellius/Desktop/scala-assignment' for client Visual Studio Code 1.107.1.
+2026.02.06 12:39:36 INFO  Memory monitor started
+2026.02.06 12:39:36 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 12:39:36 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/bankActor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Feb 06, 2026 12:39:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 06, 2026 12:39:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.06 12:39:37 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/bankActor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 12:39:37 INFO  Attempting to connect to the build server...
+2026.02.06 12:39:37 INFO  Found a Bloop server running
+2026.02.06 12:39:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 12:39:42 INFO  Attempting to connect to the build server...
+2026.02.06 12:39:42 INFO  Found a Bloop server running
+2026.02.06 12:39:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 12:39:42 INFO  time: Connected to build server in 5.29s
+2026.02.06 12:39:42 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.06 12:39:44 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 12:39:44 INFO  time: indexed workspace in 2.34s
+2026.02.06 12:39:54 INFO  Shutting down server
+2026.02.06 12:39:54 INFO  Memory monitor stopped
+2026.02.06 12:39:54 INFO  shutting down Metals
+2026.02.06 12:39:54 INFO  Shut down connection with build server.
+2026.02.06 12:39:54 INFO  Shut down connection with build server.
+2026.02.06 12:39:54 INFO  Exiting server
+2026.02.06 15:01:38 INFO  Started: Metals version 1.6.5 in folders '/Users/tellius/Desktop/scala-assignment' for client Visual Studio Code 1.107.1.
+2026.02.06 15:01:38 INFO  Memory monitor started
+2026.02.06 15:01:38 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 15:01:38 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/bankActor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 15:01:39 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-actor/bankActor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 15:01:39 INFO  Attempting to connect to the build server...
+2026.02.06 15:01:39 INFO  Found a Bloop server running
+2026.02.06 15:01:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 15:01:44 INFO  Attempting to connect to the build server...
+2026.02.06 15:01:44 INFO  Found a Bloop server running
+2026.02.06 15:01:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 15:01:44 INFO  time: Connected to build server in 5.27s
+2026.02.06 15:01:44 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.06 15:01:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 15:01:46 INFO  time: indexed workspace in 2.27s
+2026.02.06 15:28:30 INFO  time: code lens generation in 1.23s
+2026.02.06 15:30:29 INFO  compiling root (1 scala source)
+2026.02.06 15:30:29 INFO  time: compiled root in 0.17s
+2026.02.06 15:30:42 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:30:42 ERROR /Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+java.util.NoSuchElementException: key not found: 2
+	at scala.collection.immutable.BitmapIndexedMapNode.apply(HashMap.scala:674)
+	at scala.collection.immutable.BitmapIndexedMapNode.apply(HashMap.scala:672)
+	at scala.collection.immutable.HashMap.apply(HashMap.scala:132)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.currentToken(ScalaToplevelMtags.scala:1265)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.failMessage(ScalaToplevelMtags.scala:1247)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.require(ScalaToplevelMtags.scala:1269)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitPackage(ScalaToplevelMtags.scala:665)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:213)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:96)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:83)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:560)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:691)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:688)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1313)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:688)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:936)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.02.06 15:30:42 INFO  compiling root (1 scala source)
+2026.02.06 15:30:42 INFO  time: compiled root in 23ms
+2026.02.06 15:30:42 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:30:44 INFO  compiling root (1 scala source)
+2026.02.06 15:30:44 INFO  time: compiled root in 25ms
+Feb 06, 2026 3:30:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 4,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\n\nobject intro {\n  \n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..22]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Feb 06, 2026 3:30:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 5,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\nobject intro {\n  \n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..21]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.02.06 15:30:55 INFO  compiling root (1 scala source)
+2026.02.06 15:30:55 INFO  time: compiled root in 99ms
+2026.02.06 15:31:03 INFO  compiling root (1 scala source)
+2026.02.06 15:31:03 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:31:03 INFO  time: compiled root in 0.11s
+2026.02.06 15:31:06 INFO  compiling root (1 scala source)
+2026.02.06 15:31:06 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:31:06 INFO  time: compiled root in 0.11s
+2026.02.06 15:31:16 INFO  compiling root (1 scala source)
+2026.02.06 15:31:16 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:31:16 INFO  time: compiled root in 0.1s
+2026.02.06 15:31:22 INFO  compiling root (1 scala source)
+2026.02.06 15:31:22 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:31:22 INFO  time: compiled root in 0.14s
+2026.02.06 15:31:30 INFO  compiling root (1 scala source)
+2026.02.06 15:31:30 INFO  time: compiled root in 29ms
+2026.02.06 15:32:30 INFO  compiling root (1 scala source)
+2026.02.06 15:32:30 INFO  time: compiled root in 60ms
+2026.02.06 15:32:32 INFO  compiling root (1 scala source)
+2026.02.06 15:32:32 INFO  time: compiled root in 40ms
+2026.02.06 15:32:39 INFO  compiling root (1 scala source)
+2026.02.06 15:32:39 INFO  time: compiled root in 36ms
+2026.02.06 15:32:43 INFO  compiling root (1 scala source)
+2026.02.06 15:32:43 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:32:43 INFO  time: compiled root in 0.15s
+2026.02.06 15:32:50 INFO  compiling root (1 scala source)
+2026.02.06 15:32:50 INFO  Created report: Optional[file:///Users/tellius/Desktop/scala-assignment/file:/Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala]
+2026.02.06 15:32:50 INFO  expected identifier; obtained rbrace (full report at: "/Users/tellius/Desktop/scala-assignment/.metals/.reports/metals/2026-02-06/r_scala-toplevel-mtags_15-32-50-247.md")
+2026.02.06 15:32:50 INFO  time: compiled root in 35ms
+2026.02.06 15:32:57 INFO  compiling root (1 scala source)
+2026.02.06 15:32:57 INFO  time: compiled root in 36ms
+2026.02.06 15:33:10 INFO  compiling root (1 scala source)
+2026.02.06 15:33:10 INFO  time: compiled root in 35ms
+2026.02.06 15:33:11 INFO  compiling root (1 scala source)
+2026.02.06 15:33:11 INFO  time: compiled root in 22ms
+2026.02.06 15:33:14 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:33:14 INFO  compiling root (1 scala source)
+2026.02.06 15:33:14 INFO  time: compiled root in 30ms
+2026.02.06 15:33:15 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:33:18 INFO  compiling root (1 scala source)
+2026.02.06 15:33:18 INFO  time: compiled root in 34ms
+2026.02.06 15:33:21 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:33:23 INFO  compiling root (1 scala source)
+2026.02.06 15:33:23 INFO  time: compiled root in 40ms
+2026.02.06 15:33:25 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:33:27 INFO  compiling root (1 scala source)
+2026.02.06 15:33:27 INFO  time: compiled root in 32ms
+2026.02.06 15:33:29 INFO  compiling root (1 scala source)
+2026.02.06 15:33:29 INFO  time: compiled root in 34ms
+2026.02.06 15:34:17 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.02.06 15:34:23 INFO  [info] welcome to sbt 1.12.1 (Homebrew Java 17.0.17)
+2026.02.06 15:34:23 INFO  [info] loading settings for project scala-assignment-build-build from metals.sbt...
+2026.02.06 15:34:25 INFO  [info] loading project definition from /Users/tellius/Desktop/scala-assignment/project/project
+2026.02.06 15:34:25 INFO  [info] loading settings for project scala-assignment-build from metals.sbt...
+2026.02.06 15:34:26 INFO  [info] loading project definition from /Users/tellius/Desktop/scala-assignment/project
+2026.02.06 15:34:26 INFO  [success] Generated .bloop/scala-assignment-build.json
+2026.02.06 15:34:26 INFO  [success] Total time: 1 s, completed 06-Feb-2026, 3:34:27 pm
+2026.02.06 15:34:27 INFO  [info] loading settings for project scala-assignment from build.sbt...
+2026.02.06 15:34:27 INFO  [info] set current project to scala-assignment (in build file:/Users/tellius/Desktop/scala-assignment/)
+2026.02.06 15:34:30 INFO  [success] Generated .bloop/scala-assignment.json
+2026.02.06 15:34:30 INFO  [success] Generated .bloop/scala-assignment-test.json
+2026.02.06 15:34:30 INFO  [warn] Removed stale /Users/tellius/Desktop/scala-assignment/.bloop/root-test.json
+2026.02.06 15:34:30 INFO  [warn] Removed stale /Users/tellius/Desktop/scala-assignment/.bloop/root.json
+2026.02.06 15:34:30 INFO  [success] Total time: 2 s, completed 06-Feb-2026, 3:34:30 pm
+2026.02.06 15:34:30 INFO  time: ran 'sbt bloopInstall' in 12s
+2026.02.06 15:34:30 INFO  Disconnecting from Bloop session...
+2026.02.06 15:34:30 INFO  Shut down connection with build server.
+2026.02.06 15:34:30 INFO  Shut down connection with build server.
+2026.02.06 15:34:30 INFO  Attempting to connect to the build server...
+2026.02.06 15:34:30 INFO  Found a Bloop server running
+2026.02.06 15:34:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 15:34:36 INFO  Attempting to connect to the build server...
+2026.02.06 15:34:36 INFO  Found a Bloop server running
+2026.02.06 15:34:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 15:34:35 INFO  time: Connected to build server in 6.1s
+2026.02.06 15:34:36 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.06 15:34:36 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+2026.02.06 15:34:41 INFO  time: indexed workspace in 5.45s
+2026.02.06 15:34:41 INFO  compiling scala-assignment (8 scala sources)
+2026.02.06 15:34:41 INFO  time: compiled scala-assignment in 0.11s
+2026.02.06 15:34:41 INFO  skipping build import with status 'Installed'
+2026.02.06 15:35:29 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.02.06 15:35:35 INFO  [info] welcome to sbt 1.12.1 (Homebrew Java 17.0.17)
+2026.02.06 15:35:35 INFO  [info] loading settings for project scala-assignment-build-build from metals.sbt...
+2026.02.06 15:35:35 INFO  [info] loading project definition from /Users/tellius/Desktop/scala-assignment/project/project
+2026.02.06 15:35:36 INFO  [info] loading settings for project scala-assignment-build from metals.sbt...
+2026.02.06 15:35:36 INFO  [info] loading project definition from /Users/tellius/Desktop/scala-assignment/project
+2026.02.06 15:35:36 INFO  [success] Generated .bloop/scala-assignment-build.json
+2026.02.06 15:35:36 INFO  [success] Total time: 1 s, completed 06-Feb-2026, 3:35:37 pm
+2026.02.06 15:35:38 INFO  [info] loading settings for project root from build.sbt...
+2026.02.06 15:35:38 INFO  [info] set current project to scala-assignment (in build file:/Users/tellius/Desktop/scala-assignment/)
+2026.02.06 15:35:38 INFO  [success] Generated .bloop/root.json
+2026.02.06 15:35:38 INFO  [success] Generated .bloop/root-test.json
+2026.02.06 15:35:38 INFO  [warn] Removed stale /Users/tellius/Desktop/scala-assignment/.bloop/scala-assignment.json
+2026.02.06 15:35:38 INFO  [warn] Removed stale /Users/tellius/Desktop/scala-assignment/.bloop/scala-assignment-test.json
+2026.02.06 15:35:38 INFO  [success] Total time: 0 s, completed 06-Feb-2026, 3:35:38 pm
+2026.02.06 15:35:38 INFO  time: ran 'sbt bloopInstall' in 9.78s
+2026.02.06 15:35:38 INFO  Disconnecting from Bloop session...
+2026.02.06 15:35:39 INFO  Shut down connection with build server.
+2026.02.06 15:35:38 INFO  Shut down connection with build server.
+2026.02.06 15:35:39 INFO  Attempting to connect to the build server...
+2026.02.06 15:35:39 INFO  Found a Bloop server running
+2026.02.06 15:35:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 15:35:44 INFO  Attempting to connect to the build server...
+2026.02.06 15:35:44 INFO  Found a Bloop server running
+2026.02.06 15:35:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 15:35:44 INFO  time: Connected to build server in 5.24s
+2026.02.06 15:35:44 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.06 15:35:45 INFO  time: indexed workspace in 1.15s
+2026.02.06 15:35:45 INFO  compiling root (1 scala source)
+2026.02.06 15:35:45 INFO  time: compiled root in 64ms
+2026.02.06 15:37:12 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:37:13 INFO  compiling root (1 scala source)
+2026.02.06 15:37:13 INFO  time: compiled root in 40ms
+2026.02.06 15:37:15 INFO  compiling root (1 scala source)
+2026.02.06 15:37:15 INFO  time: compiled root in 35ms
+2026.02.06 15:37:16 INFO  compiling root (1 scala source)
+2026.02.06 15:37:16 INFO  time: compiled root in 32ms
+2026.02.06 15:37:19 INFO  compiling root (1 scala source)
+2026.02.06 15:37:19 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:37:19 INFO  time: compiled root in 0.14s
+2026.02.06 15:38:32 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:38:34 INFO  compiling root (1 scala source)
+2026.02.06 15:38:34 INFO  time: compiled root in 50ms
+2026.02.06 15:38:36 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:38:37 INFO  compiling root (1 scala source)
+2026.02.06 15:38:37 INFO  time: compiled root in 36ms
+2026.02.06 15:38:40 INFO  compiling root (1 scala source)
+2026.02.06 15:38:40 INFO  time: compiled root in 36ms
+2026.02.06 15:38:58 INFO  Created report: Optional[file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala]
+2026.02.06 15:38:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/tellius/Desktop/scala-assignment/.metals/.reports/metals-full/2026-02-06/r_empty-definition_(root)_15-38-58-173.md")
+2026.02.06 15:39:03 INFO  compiling root (1 scala source)
+2026.02.06 15:39:03 INFO  time: compiled root in 46ms
+2026.02.06 15:39:07 INFO  compiling root (1 scala source)
+2026.02.06 15:39:07 INFO  time: compiled root in 36ms
+2026.02.06 15:39:10 INFO  compiling root (1 scala source)
+2026.02.06 15:39:10 INFO  time: compiled root in 41ms
+2026.02.06 15:39:34 INFO  compiling root (1 scala source)
+2026.02.06 15:39:34 INFO  time: compiled root in 48ms
+2026.02.06 15:39:37 INFO  compiling root (1 scala source)
+2026.02.06 15:39:37 INFO  time: compiled root in 35ms
+2026.02.06 15:39:38 INFO  compiling root (1 scala source)
+2026.02.06 15:39:38 INFO  time: compiled root in 36ms
+2026.02.06 15:39:59 INFO  compiling root (1 scala source)
+2026.02.06 15:39:59 INFO  time: compiled root in 44ms
+2026.02.06 15:40:01 INFO  compiling root (1 scala source)
+2026.02.06 15:40:01 INFO  time: compiled root in 63ms
+2026.02.06 15:40:04 INFO  compiling root (1 scala source)
+2026.02.06 15:40:04 INFO  time: compiled root in 33ms
+2026.02.06 15:40:08 INFO  compiling root (1 scala source)
+2026.02.06 15:40:08 INFO  time: compiled root in 36ms
+2026.02.06 15:40:10 INFO  compiling root (1 scala source)
+2026.02.06 15:40:10 INFO  time: compiled root in 36ms
+2026.02.06 15:40:13 INFO  compiling root (1 scala source)
+2026.02.06 15:40:13 INFO  time: compiled root in 27ms
+Feb 06, 2026 3:40:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1817
+2026.02.06 15:40:23 INFO  compiling root (1 scala source)
+2026.02.06 15:40:23 INFO  time: compiled root in 44ms
+2026.02.06 15:40:25 INFO  compiling root (1 scala source)
+2026.02.06 15:40:25 INFO  time: compiled root in 35ms
+2026.02.06 15:40:26 INFO  compiling root (1 scala source)
+2026.02.06 15:40:26 INFO  time: compiled root in 38ms
+2026.02.06 15:40:28 INFO  compiling root (1 scala source)
+2026.02.06 15:40:28 INFO  time: compiled root in 32ms
+2026.02.06 15:40:30 INFO  compiling root (1 scala source)
+2026.02.06 15:40:30 INFO  time: compiled root in 37ms
+2026.02.06 15:40:47 INFO  compiling root (1 scala source)
+2026.02.06 15:40:47 INFO  time: compiled root in 75ms
+2026.02.06 15:40:56 INFO  compiling root (1 scala source)
+2026.02.06 15:40:56 INFO  time: compiled root in 65ms
+Feb 06, 2026 3:41:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2092
+2026.02.06 15:44:31 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:44:32 INFO  compiling root (1 scala source)
+2026.02.06 15:44:32 INFO  time: compiled root in 37ms
+2026.02.06 15:44:31 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:44:33 INFO  compiling root (1 scala source)
+2026.02.06 15:44:33 INFO  time: compiled root in 55ms
+2026.02.06 15:44:35 INFO  compiling root (1 scala source)
+2026.02.06 15:44:35 INFO  time: compiled root in 55ms
+2026.02.06 15:44:36 INFO  compiling root (1 scala source)
+2026.02.06 15:44:36 INFO  time: compiled root in 65ms
+2026.02.06 15:44:36 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:44:39 INFO  compiling root (1 scala source)
+2026.02.06 15:44:39 INFO  time: compiled root in 69ms
+2026.02.06 15:44:41 INFO  compiling root (1 scala source)
+2026.02.06 15:44:41 INFO  time: compiled root in 81ms
+2026.02.06 15:45:11 WARN  Invalid text document uri received from build server: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:45:22 INFO  compiling root (1 scala source)
+2026.02.06 15:45:22 INFO  time: compiled root in 0.11s
+2026.02.06 15:45:26 INFO  compiling root (1 scala source)
+2026.02.06 15:45:26 INFO  time: compiled root in 69ms
+2026.02.06 15:45:31 INFO  compiling root (1 scala source)
+2026.02.06 15:45:31 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:45:31 INFO  time: compiled root in 0.1s
+Feb 06, 2026 3:45:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 16,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\nobject intro extends App {\n\n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.02.06 15:45:33 INFO  compiling root (1 scala source)
+2026.02.06 15:45:33 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:45:33 INFO  time: compiled root in 0.12s
+2026.02.06 15:45:36 INFO  compiling root (1 scala source)
+2026.02.06 15:45:36 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:45:36 INFO  time: compiled root in 0.1s
+2026.02.06 15:45:39 INFO  compiling root (1 scala source)
+2026.02.06 15:45:39 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:45:39 INFO  time: compiled root in 0.12s
+2026.02.06 15:45:41 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:45:45 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:45:47 INFO  compiling root (1 scala source)
+2026.02.06 15:45:47 INFO  time: compiled root in 39ms
+2026.02.06 15:45:48 INFO  compiling root (1 scala source)
+2026.02.06 15:45:48 INFO  time: compiled root in 29ms
+2026.02.06 15:45:53 INFO  compiling root (1 scala source)
+2026.02.06 15:45:53 INFO  time: compiled root in 29ms
+Feb 06, 2026 3:49:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 45,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\n\nobject intro extends App {\n\n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..32]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.02.06 15:49:23 INFO  compiling root (1 scala source)
+2026.02.06 15:49:23 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:49:23 INFO  time: compiled root in 0.15s
+2026.02.06 15:49:24 INFO  compiling root (1 scala source)
+2026.02.06 15:49:24 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:49:24 INFO  time: compiled root in 0.1s
+2026.02.06 15:49:28 INFO  compiling root (1 scala source)
+2026.02.06 15:49:28 INFO  time: compiled root in 36ms
+2026.02.06 15:49:30 INFO  compiling root (1 scala source)
+2026.02.06 15:49:30 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:49:30 INFO  time: compiled root in 0.15s
+2026.02.06 15:49:32 INFO  compiling root (1 scala source)
+2026.02.06 15:49:32 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:49:32 INFO  time: compiled root in 0.11s
+2026.02.06 15:49:33 INFO  compiling root (1 scala source)
+2026.02.06 15:49:33 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:49:33 INFO  time: compiled root in 0.1s
+Feb 06, 2026 3:49:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.06 15:49:46 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:49:46 INFO  compiling root (1 scala source)
+2026.02.06 15:49:46 INFO  time: compiled root in 31ms
+2026.02.06 15:49:46 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:49:48 WARN  Could not find semantic tokens for: file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala
+2026.02.06 15:49:52 INFO  compiling root (1 scala source)
+2026.02.06 15:49:52 INFO  time: compiled root in 33ms
+2026.02.06 15:49:55 INFO  compiling root (1 scala source)
+2026.02.06 15:49:55 INFO  time: compiled root in 0.1s
+2026.02.06 15:49:59 INFO  compiling root (1 scala source)
+2026.02.06 15:49:59 INFO  time: compiled root in 89ms
+2026.02.06 15:50:11 INFO  compiling root (1 scala source)
+2026.02.06 15:50:11 INFO  time: compiled root in 0.15s
+2026.02.06 15:50:12 INFO  compiling root (1 scala source)
+2026.02.06 15:50:12 INFO  time: compiled root in 0.11s
+2026.02.06 15:50:15 INFO  compiling root (1 scala source)
+2026.02.06 15:50:15 INFO  time: compiled root in 0.1s
+Feb 06, 2026 3:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 85,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\n\nobject intro extends App {\n    println(\"Hello\")\n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..52]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Feb 06, 2026 3:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 66
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 66
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 66
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:1517)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.formatting.MultilineString.scala$meta$internal$metals$formatting$MultilineString$$isUnfinishedDoubleQuote$1(MultilineString.scala:414)
+	at scala.meta.internal.metals.formatting.MultilineString$$anonfun$contributeNewline$2.applyOrElse(MultilineString.scala:463)
+	at scala.meta.internal.metals.formatting.MultilineString$$anonfun$contributeNewline$2.applyOrElse(MultilineString.scala:421)
+	at scala.collection.IterableOnceOps.collectFirst(IterableOnce.scala:1279)
+	at scala.collection.IterableOnceOps.collectFirst$(IterableOnce.scala:1271)
+	at scala.collection.AbstractIterator.collectFirst(Iterator.scala:1313)
+	at scala.meta.internal.metals.formatting.MultilineString.contributeNewline(MultilineString.scala:421)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:365)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$5(OnTypeFormattingProvider.scala:69)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:332)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:341)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$4(OnTypeFormattingProvider.scala:68)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$3(OnTypeFormattingProvider.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:54)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onTypeFormatting$2(MetalsLspService.scala:1056)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	... 3 more
+
+Feb 06, 2026 3:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 86,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\n\n\nobject intro extends App {\n    println(\"Hello\")\n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..53]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Feb 06, 2026 3:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 66
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 66
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 66
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:1517)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.formatting.MultilineString.scala$meta$internal$metals$formatting$MultilineString$$isUnfinishedDoubleQuote$1(MultilineString.scala:414)
+	at scala.meta.internal.metals.formatting.MultilineString$$anonfun$contributeNewline$2.applyOrElse(MultilineString.scala:463)
+	at scala.meta.internal.metals.formatting.MultilineString$$anonfun$contributeNewline$2.applyOrElse(MultilineString.scala:421)
+	at scala.collection.IterableOnceOps.collectFirst(IterableOnce.scala:1279)
+	at scala.collection.IterableOnceOps.collectFirst$(IterableOnce.scala:1271)
+	at scala.collection.AbstractIterator.collectFirst(Iterator.scala:1313)
+	at scala.meta.internal.metals.formatting.MultilineString.contributeNewline(MultilineString.scala:421)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:365)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$5(OnTypeFormattingProvider.scala:69)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:332)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:341)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$4(OnTypeFormattingProvider.scala:68)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$3(OnTypeFormattingProvider.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:54)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onTypeFormatting$2(MetalsLspService.scala:1056)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	... 3 more
+
+2026.02.06 15:50:27 INFO  compiling root (1 scala source)
+2026.02.06 15:50:27 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:50:27 INFO  time: compiled root in 0.14s
+2026.02.06 15:50:29 INFO  compiling root (1 scala source)
+2026.02.06 15:50:29 INFO  time: compiled root in 0.18s
+Feb 06, 2026 3:55:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 88,
+      "uri": "file:///Users/tellius/Desktop/scala-assignment/src/main/scala/akka-http/intro.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "\nobject intro extends App {\n    println(\"Hello\")\n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:104)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:86)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:369)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:324)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:323)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:323)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:182)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:856)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:309)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.02.06 15:55:50 INFO  compiling root (1 scala source)
+2026.02.06 15:55:50 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.02.06 15:55:50 INFO  time: compiled root in 0.14s
+2026.02.06 16:13:34 INFO  Shutting down server
+2026.02.06 16:13:34 INFO  Memory monitor stopped
+2026.02.06 16:13:34 INFO  shutting down Metals
+2026.02.06 16:13:34 INFO  Shut down connection with build server.
+2026.02.06 16:13:34 INFO  Shut down connection with build server.
+2026.02.06 16:13:34 INFO  Exiting server
+2026.02.06 16:13:45 INFO  Started: Metals version 1.6.5 in folders '/Users/tellius/Desktop/scala-assignment' for client Visual Studio Code 1.107.1.
+2026.02.06 16:13:45 INFO  Memory monitor started
+2026.02.06 16:13:45 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 16:13:45 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 16:13:46 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 16:13:46 INFO  Attempting to connect to the build server...
+2026.02.06 16:13:46 INFO  Found a Bloop server running
+Feb 06, 2026 4:13:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 06, 2026 4:13:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 06, 2026 4:13:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 06, 2026 4:13:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.06 16:13:49 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 16:13:49 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 16:13:49 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+Feb 06, 2026 4:13:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Feb 06, 2026 4:13:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.02.06 16:13:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 16:13:51 INFO  Attempting to connect to the build server...
+2026.02.06 16:13:51 INFO  Found a Bloop server running
+2026.02.06 16:13:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 16:13:51 INFO  time: Connected to build server in 5.3s
+2026.02.06 16:13:51 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.06 16:13:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 16:13:53 INFO  time: indexed workspace in 2.23s
+2026.02.06 16:13:55 INFO  time: code lens generation in 1.11s
+2026.02.06 16:13:55 INFO  time: code lens generation in 1.28s
+2026.02.06 16:14:30 INFO  Shutting down server
+2026.02.06 16:14:30 INFO  Memory monitor stopped
+2026.02.06 16:14:30 INFO  shutting down Metals
+2026.02.06 16:14:30 INFO  Shut down connection with build server.
+2026.02.06 16:14:30 INFO  Shut down connection with build server.
+2026.02.06 16:14:30 INFO  Exiting server
+2026.02.06 16:14:36 INFO  Started: Metals version 1.6.5 in folders '/Users/tellius/Desktop/scala-assignment' for client Visual Studio Code 1.107.1.
+2026.02.06 16:14:36 INFO  Memory monitor started
+2026.02.06 16:14:36 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 16:14:36 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 16:14:37 INFO  no build target found for /Users/tellius/Desktop/scala-assignment/build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.06 16:14:37 INFO  Attempting to connect to the build server...
+2026.02.06 16:14:37 INFO  Found a Bloop server running
+2026.02.06 16:14:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 16:14:42 INFO  Attempting to connect to the build server...
+2026.02.06 16:14:42 INFO  Found a Bloop server running
+2026.02.06 16:14:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tellius/Desktop/scala-assignment/project/.metals/bsp.trace.json or /Users/tellius/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.06 16:14:42 INFO  time: Connected to build server in 5.29s
+2026.02.06 16:14:42 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.06 16:14:44 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.06 16:14:44 INFO  time: indexed workspace in 2.34s
+2026.02.06 16:14:46 INFO  time: code lens generation in 1.38s
+2026.02.06 16:14:46 INFO  time: code lens generation in 1.56s
