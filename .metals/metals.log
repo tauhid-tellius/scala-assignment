@@ -13710,3 +13710,17 @@ WARNING: Unmatched cancel notification for request id 5749
 2026.02.06 18:51:02 INFO  compiling root (1 scala source)
 2026.02.06 18:51:02 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
 2026.02.06 18:51:02 INFO  time: compiled root in 0.41s
+2026.02.06 19:12:01 INFO  compiling root (1 scala source)
+2026.02.06 19:12:01 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
+2026.02.06 19:12:01 INFO  time: compiled root in 0.35s
+2026.02.06 19:12:10 INFO  compiling root (1 scala source)
+2026.02.06 19:12:10 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
+2026.02.06 19:12:10 INFO  time: compiled root in 0.34s
+2026.02.06 19:12:21 INFO  compiling root (1 scala source)
+2026.02.06 19:12:21 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
+2026.02.06 19:12:21 INFO  time: compiled root in 0.32s
+2026.02.06 19:13:12 INFO  compiling root (1 scala source)
+2026.02.06 19:13:12 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
+2026.02.06 19:13:12 INFO  time: compiled root in 0.34s
+Feb 06, 2026 7:13:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

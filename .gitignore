@@ -53,3 +53,7 @@ build/
 /target
 **/.bsp/
 **/.scala-build/
+.metals
+.idea
+.bsp
+.bloop
