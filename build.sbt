@@ -7,19 +7,24 @@ lazy val root = (project in file("."))
     name := "scala-assignment"
   )
 
-val akkaVersion = "2.10.11"
+// Akka 2.8+ and Akka HTTP 10.5+ require the Akka Repository
+resolvers += "Akka library repository".at("https://repo.akka.io/maven")
+
+val akkaVersion = "2.8.8"
+val akkaHttpVersion = "10.5.3" // Compatible with Akka 2.8
 val scalaTestVersion = "3.2.19"
-val AkkaHttpVersion = "10.7.3"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-actor" % akkaVersion,
-  "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
-  "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
-  "ch.qos.logback" % "logback-classic" % "1.2.3",
-
-  // akka-http
-  "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
-  "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
-  "com.typesafe.akka" %% "akka-http" % AkkaHttpVersion,
-  "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion
+  // Core Akka
+  "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
+  "com.typesafe.akka" %% "akka-stream"      % akkaVersion,
+  "com.typesafe.akka" %% "akka-testkit"     % akkaVersion % Test,
+  
+  // Akka HTTP
+  "com.typesafe.akka" %% "akka-http"            % akkaHttpVersion,
+  "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
+  
+  // Logging & Testing
+  "ch.qos.logback"    %  "logback-classic" % "1.2.3",
+  "org.scalatest"     %% "scalatest"       % scalaTestVersion % Test
 )
